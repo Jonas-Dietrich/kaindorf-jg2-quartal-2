@@ -3,11 +3,11 @@ package bl;
 public class CurrencyConverter {
 
     public double euroToDollar(double euro) {
-        return euro * 0.88;
+        return euro * 1.13;
     }
 
     public double dollarToEuro(double dollar) {
-        return dollar * 1.13;
+        return dollar * 0.88;
     }
 
 

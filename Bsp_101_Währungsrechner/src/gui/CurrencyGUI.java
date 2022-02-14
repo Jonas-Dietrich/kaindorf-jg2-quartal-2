@@ -53,7 +53,8 @@ public class CurrencyGUI {
     }
 
     public void onBtDollarToEuro() {
-
+        CurrencyConverter curconv = new bl.CurrencyConverter();
+        tfEuro.setText("" + curconv.dollarToEuro(Double.parseDouble(tfDollar.getText())));
     }
 
 
